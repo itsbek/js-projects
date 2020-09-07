@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./tree.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+    /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+    text-shadow: #000 0px 0px 1px;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 5rem;
+    margin-top: -5rem;
+    padding-left: 2rem;
+}
+
+.countdown-container {
+    display: flex;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 7rem;
+    line-height: 1;
+    margin: 0 4rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.4rem;
+}
